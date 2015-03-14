@@ -55,6 +55,7 @@ if &t_Co > 2 || has("gui_running")
   color mango
   colorscheme solarized
   set hlsearch
+  set guifont=Menlo\ Regular:h14
 endif
 
 " Only do this part when compiled with support for autocommands.
@@ -103,5 +104,9 @@ endif
 set nobackup
 set nowritebackup
 
+" NERDTree stuff
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 " Keymappings
+map <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
