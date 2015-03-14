@@ -1,22 +1,13 @@
-#Installation instructions:
+#Upgrading all vim plugins
 
-	cd ~
-	git clone git@bitbucket.org:henrikwl/dotvim.git ~/.vim
-	ln -s ~/.vim/vimrc ~/.vimrc
-	cd ~/.vim
-	git submodule init
-	git submodule update
-
-#Upgrading all plugins
-
-	git submodule foreach git pull origin master
+git submodule foreach git pull origin master
 
 #Installing new VIM plugins:
 
-	git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
-	git add .
-	git commit -m "Install Fugitive.vim bundle as a submodule."
-	
+git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+git add .
+git commit -m "Install Fugitive.vim bundle as a submodule."
+
 #Uninstalling VIM plugins:
 
 1. Remove it from .gitmodules
