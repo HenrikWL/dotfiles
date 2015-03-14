@@ -1,0 +1,3 @@
+[submodule "vim.symlink/bundle/mango"]
+	path = vim.symlink/bundle/mango
+	url = https://github.com/goatslacker/mango.vim
