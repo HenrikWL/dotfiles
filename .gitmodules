@@ -7,3 +7,6 @@
 [submodule "vim.symlink/bundle/tagbar"]
 	path = vim.symlink/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "vim.symlink/bundle/fugitive"]
+	path = vim.symlink/bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive
