@@ -10,3 +10,6 @@
 [submodule "vim.symlink/bundle/fugitive"]
 	path = vim.symlink/bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "vim.symlink/bundle/nerdtree"]
+	path = vim.symlink/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
