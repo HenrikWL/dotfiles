@@ -1,3 +1,6 @@
 [submodule "vim.symlink/bundle/mango"]
 	path = vim.symlink/bundle/mango
 	url = https://github.com/goatslacker/mango.vim
+[submodule "vim.symlink/bundle/vim-colors-solarized"]
+	path = vim.symlink/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
