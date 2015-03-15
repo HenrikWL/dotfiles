@@ -1,6 +1,6 @@
 #Upgrading all vim plugins
 
-git submodule foreach git pull origin master
+git submodule update --remote
 
 #Installing new VIM plugins:
 
