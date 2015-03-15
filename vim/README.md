@@ -4,7 +4,7 @@ git submodule update --remote
 
 #Installing new VIM plugins:
 
-git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+git submodule add http://github.com/tpope/vim-fugitive.git vim/vim.symlink/bundle/fugitive
 git add .
 git commit -m "Install Fugitive.vim bundle as a submodule."
 
