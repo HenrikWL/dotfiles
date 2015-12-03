@@ -5,7 +5,12 @@
 	helper = GIT_CREDENTIAL_HELPER
 [core]
 	editor = vim
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
 [color]
 	ui = true
+	diff = auto
+	status = auto
+	branch = auto
 [push]
 	default = simple
