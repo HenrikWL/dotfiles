@@ -53,7 +53,6 @@ if &t_Co > 2 || has("gui_running")
   set background=dark
   syntax on
   color mango
-  colorscheme solarized
   set hlsearch
   set guifont=Menlo\ Regular:h14
 endif
