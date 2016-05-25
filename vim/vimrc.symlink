@@ -20,8 +20,8 @@ endif
 set nocompatible
 
 " Pathogen setup
-call pathogen#infect()
-call pathogen#helptags()
+execute pathogen#infect()
+execute pathogen#helptags()
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
