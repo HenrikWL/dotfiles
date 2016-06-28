@@ -33,6 +33,7 @@ set incsearch		" do incremental searching
 set number
 set relativenumber
 set laststatus=2
+set ttimeoutlen=50
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
