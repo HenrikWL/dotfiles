@@ -32,6 +32,7 @@ set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 set number
 set relativenumber
+set laststatus=2
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
