@@ -1,6 +1,3 @@
-[submodule "vim/vim.symlink/bundle/mango"]
-	path = vim/vim.symlink/bundle/mango
-	url = https://github.com/goatslacker/mango.vim
 [submodule "vim/vim.symlink/bundle/nerdtree"]
 	path = vim/vim.symlink/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -13,9 +10,6 @@
 [submodule "vim/vim.symlink/bundle/tagbar"]
 	path = vim/vim.symlink/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
-[submodule "vim/vim.symlink/bundle/minibufexpl"]
-	path = vim/vim.symlink/bundle/minibufexpl
-	url = https://github.com/fholgado/minibufexpl.vim.git
 [submodule "vim/vim.symlink/bundle/vim-airline"]
 	path = vim/vim.symlink/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
