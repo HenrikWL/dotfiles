@@ -136,7 +136,8 @@ let g:airline#extensions#tabline#show_buffers = 1
 
 
 " Keymappings
-map <C-n> :NERDTreeToggle<CR>
-map <C-h> :bp<CR>
-map <C-l> :bn<CR>
+let mapleader = " "
+map <Leader>n :NERDTreeToggle<CR>
+map <Leader>h :bp<CR>
+map <Leader>l :bn<CR>
 nmap <F8> :TagbarToggle<CR>
