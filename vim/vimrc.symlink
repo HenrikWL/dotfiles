@@ -35,6 +35,7 @@ set relativenumber
 set laststatus=2
 set ttimeoutlen=50
 set hidden
+set clipboard=unnamed
 
 " For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
 " let &guioptions = substitute(&guioptions, "t", "", "g")
@@ -113,6 +114,7 @@ set noshowmode
 
 " NERDTree stuff
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " vim-airline symbol config
 if !exists('g:airline_symbols')
