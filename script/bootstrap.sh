@@ -136,6 +136,12 @@ install_dotfiles () {
 		dst="$HOME/.$(basename "${src%.*}")"
 		link_file "$src" "$dst"
 	done
+
+	for src in $(find "$DOTFILES_ROOT/" -maxdepth 2 -name '*.xdg')
+	do
+		dst="$HOME/.config/$(basename "${src%.*}")"
+		link_file "$src" "$dst"
+	done
 }
 
 setup_gitconfig
