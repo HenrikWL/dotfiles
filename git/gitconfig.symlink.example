@@ -1,6 +1,7 @@
 [user]
 	name = AUTHORNAME
 	email = AUTHOREMAIL 
+	signingkey = 908BD3E6BF0D4F26
 [credential]
 	helper = GIT_CREDENTIAL_HELPER
 [core]
@@ -15,4 +16,8 @@
 [push]
 	default = simple
 [alias]
-	serve = daemon --verbose --export-all --base-path=.git --reuseaddr --strict-paths .git/
+        serve = daemon --verbose --export-all --base-path=.git --reuseaddr --strict-paths .git/
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
