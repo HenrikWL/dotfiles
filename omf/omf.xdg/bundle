@@ -1,3 +1,4 @@
+package foreign-env
 package https://github.com/HenrikWL/fish_logo.git
 theme agnoster
 theme default
