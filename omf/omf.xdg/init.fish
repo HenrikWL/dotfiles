@@ -6,3 +6,10 @@ end
 set -xg PATH "/usr/local/opt/gnupg@2.1/bin" $PATH
 set -xg GPG_TTY (tty)
 set -xg SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+
+#Machine local config
+test -f $OMF_CONFIG/init-local.fish
+  and source $OMF_CONFIG/init-local.fish
+
+#Locale
+set -xg LANG "no_NO.UTF-8"
