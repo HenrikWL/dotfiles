@@ -12,3 +12,6 @@ test -f $OMF_CONFIG/init-local.fish
 
 #Locale
 set -xg LANG "no_NO.UTF-8"
+
+#Various settings
+set -xg EDITOR vim
