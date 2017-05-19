@@ -10,6 +10,9 @@ set -xg SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 test -f $OMF_CONFIG/init-local.fish
   and source $OMF_CONFIG/init-local.fish
 
+test -d $OMF_CONFIG/localfunctions
+  and set fish_function_path $fish_function_path $OMF_CONFIG/localfunctions
+
 #Locale
 set -xg LANG "no_NO.UTF-8"
 
