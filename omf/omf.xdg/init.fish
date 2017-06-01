@@ -4,7 +4,6 @@ end
 
 #GPG config stuff
 set -xg GPG_TTY (tty)
-set -xg SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 
 #Machine local config
 test -f $OMF_CONFIG/init-local.fish
