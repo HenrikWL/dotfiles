@@ -1,0 +1,1 @@
+/Users/henriklund/.config/fisherman/bass/functions/bass.fish
