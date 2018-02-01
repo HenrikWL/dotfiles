@@ -1,9 +1,6 @@
 #GPG config
 set -xg GPG_TTY (tty)
 
-#Locale
-set -xg LANG "no_NO.UTF8"
-
 #Various settings
 set -xg EDITOR vim
 
