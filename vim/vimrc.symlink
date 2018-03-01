@@ -58,7 +58,7 @@ if &t_Co > 2 || has("gui_running")
   syntax on
   colorscheme solarized
   set hlsearch
-  set guifont=Menlo\ Regular:h14
+  set guifont=Inconsolata\ for\ Powerline:h18
 endif
 
 " Only do this part when compiled with support for autocommands.
