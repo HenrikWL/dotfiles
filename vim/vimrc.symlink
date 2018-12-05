@@ -55,6 +55,7 @@ endif
 " Also switch on highlighting the last used search pattern.
 if &t_Co > 2 || has("gui_running")
   set background=dark
+  syntax on
   let base16colorspace=256
   colorscheme base16-dracula
   set hlsearch
