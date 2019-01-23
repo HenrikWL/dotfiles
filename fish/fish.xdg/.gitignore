@@ -1,5 +1,4 @@
 fishd*
 functions/*
-!functions/fisher.fish
 fish_variables
 conf.d/*
