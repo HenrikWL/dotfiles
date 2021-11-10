@@ -56,8 +56,8 @@ endif
 if &t_Co > 2 || has("gui_running")
   set background=dark
   syntax on
-  let base16colorspace=256
-  colorscheme base16-dracula
+  "let base16colorspace=256
+  "colorscheme base16-dracula
   set hlsearch
   set guifont=Inconsolata\ for\ Powerline:h18
   syntax on
@@ -122,8 +122,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " vim-airline symbol config
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'base16_shell'
-let g:airline_base16_solarized = 1
+"let g:airline_theme = 'base16_shell'
+"let g:airline_base16_solarized = 1
 
 " vim-airline-tabline
 let g:airline#extensions#tabline#enabled = 1
