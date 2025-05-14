@@ -15,5 +15,3 @@ if not functions -q fisher
     fish -c fisher
 end
 
-set -xg NVM_DIR $HOME/.nvm
-
